@@ -6,7 +6,7 @@ la, $t0, string
 la, $t1, string
 
 loop:
-	lbu $2, 0($t1)
+	lbu $t2, 0($t1)
 	
 	beq $t2, $0, fim
 	
